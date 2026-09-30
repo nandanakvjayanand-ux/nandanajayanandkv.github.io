@@ -452,7 +452,19 @@
     box-shadow:0 0 0 5px rgba(10,12,16,1), 0 0 12px 2px var(--blue-dim);
   }
   @media (max-width:700px){ .t-dot{ display:none; } }
+.t-item > div:nth-child(2){
+    min-width:0;
+    width:100%;
+}
 
+.t-card{
+    width:100%;
+    box-sizing:border-box;
+    padding:30px 32px;
+    border-radius:var(--radius-md);
+    margin-bottom:28px;
+    transition:border-color 0.4s var(--ease), transform 0.4s var(--ease);
+}
   .t-card{
     padding:30px 32px;
     border-radius:var(--radius-md);
